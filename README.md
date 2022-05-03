@@ -17,13 +17,22 @@ So with the help of Machine learning if we can classify the patient having which
 
 So there are 10 columns that are:
 
-Id
+Id 
+
 Diagnosis
-Radius mean
+
+Radius mean 
+
 Texture mean
+
 Perimeter mean
+
 Area mean
+
 Smoothness mean
+
 Compactness mean
+
 Concavity mean
+
 Concave points
