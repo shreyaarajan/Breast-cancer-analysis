@@ -36,3 +36,18 @@ Compactness mean
 Concavity mean
 
 Concave points
+
+
+To check the correct prediction we have to check confusion matrix object and add the predicted results diagonally which will be number of correct prediction and then divide by total number of predictions.
+
+After applying the different classification models, we have got below accuracies with different models:
+
+1. Logistic Regression — 95.1%
+2. Decision Tree Algorithm - 93.7% 
+3. Random Forest Classsification - 96.5%
+
+## Conclusion
+
+From the accuracy and metrics above, the model that performed the best on the test data was the Random Forest Classifier with an accuracy score of about 96.5%. So I will choose that model to detect cancer cells in patients. Make the prediction/classification on the test data and show both the Random Forest Classifier model classification/prediction and the actual values of the patient that shows rather or not they have cancer.
+
+I notice in the model that has misdiagnosed a few patients as having cancer when they didn’t and it misdiagnosed patients that did have cancer as not having cancer. Although this model is good, when dealing with the lives of others I want this model to be better and get it’s accuracy as close to 100% as possible or at least as good as if not better than doctors. So a little more tuning of each of the models is necessary.
